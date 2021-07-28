@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estacionamento </title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<meta charset="utf-8">
+</head>
+<body onload="mostraPatio()">
+<div class="container">
+	
+	<div class="header clearfix">
+		<h2>Painel Admin <small>Sua vaga garantida</small></h2>
+	</div>
+	<!--
+		<form class="form-inline my-2 my-lg-0">
+		<input class="form-control mr-sm-2" id="pesquisar" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+		<button id="Pesquisar" class="btn btn-outline-success my-2 my-sm-0" type="search">Pesquisar</button>
+	  	</form><br>
+	-->
+	<div class="jumbotron">
+		<form id="formulario" class="lista">
+		<div id="aviso"></div>
+			<div class="form-group">
+				<label>Nome do Cliente: </label>
+				<input type="text" id="nomeCliente" class="form-control" placeholder="Digite o nome do dono do veiculo...">
+			</div>
+			<div class="form-group">
+				<label>Telefone do Cliente: </label>
+				<input type="number" id="telCliente" class="form-control" placeholder="Digite o telefone do dono do veiculo...">
+				<label>Modelo do Veículo:</label>
+				<input type="text" class="form-control" name="" id="modeloVeiculo" placeholder="Digite o modelo do veiculo...">
+			</div>
+			<div class="form-group">
+				<label>Placa do Veículo:</label>
+				<input type="text" class="form-control" name="" id="placaVeiculo" placeholder="Digite a placa do veiculo...">
+			</div>
+			<button type="submit" class="adicionar">Adicionar</button>
+		</form>
+	</div>
+
+	<div class="row marketing">
+		<div class="col-lg-12">
+		 <table class="table table-hover" >
+		    <thead>
+		      <tr>
+				<th>Nome</th>
+				<th>Telefone</th>
+		        <th>Modelo</th>
+		        <th>Placa</th>
+		        <th>Entrada</th>
+		        <th>Finalizar</th>
+		      </tr>
+		    </thead>
+		    <tbody id="resultados" class="resultado">
+		    </tbody>
+		 </table>
+		</div>
+		<p class="copy" >&copy; Estacionamento</p>
+	</div>
+	
+</div> 
+ 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	</body>
+</html>

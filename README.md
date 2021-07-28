@@ -3,4 +3,4 @@
 ## Modelo simples usando localstorage
 
 
-[<img src="https://cdn.discordapp.com/attachments/639869522387664896/869990529801285672/Screenshot_1.png" width="130" height="130"/>](https://kovert.no/)
+[<img src="https://cdn.discordapp.com/attachments/639869522387664896/869990529801285672/Screenshot_1.png" width="530" height="530"/>](https://kovert.no/)
